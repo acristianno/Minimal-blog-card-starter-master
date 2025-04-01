@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 164px;
+  margin-bottom: 164px;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.container {
+  width: 368px;
+  border: 8px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px 0px 20px 0px;
+}
+
+.container-img {
+  width: 336px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.container-botao {
+  background: #F2EAFD;
+  color: #7C19EE;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 10px;
+  border-radius: 15px;
+  padding: 4px 8px;
+  border: 0px;
+  align-self: flex-start;
+  margin-left: 16px;
+}
+
+.botao-span {
+  margin: 10px;
+}
+
+.container-titulo {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  padding-left: 16px;
+}
+
+.container-texto {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 14px;
+  align-self: flex-start;
+  color: #394150;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.container-autora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  align-self: flex-start;
+  color: #394150;
+  margin-top: 20px;
+  border-top: solid #E5EAF0;
+  border-width: 1px;
+  padding-top: 20px;
+  width: 100%;
+  padding-left: 16px;
+}
+
+footer {
+  margin-top: 30px;
+}
